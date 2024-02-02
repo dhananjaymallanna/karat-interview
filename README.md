@@ -130,4 +130,39 @@ M - Height of the grid
 
 ******************************
 
+Try to find the rectangle coordinates in a 2d grid(binary matrix). Try to find all the shapes in a 2d grid. 
+
+https://leetcode.com/discuss/interview-question/449592/karat-interview-indeed
+
+
+******************************
+
+Knowledge-based questions - 
+picked 2 out of  6 categoires. 
+
+3 question per category.
+
+1. Production issues and scaling
+    * Given a graph of stats, CPU and memory usage. Figure out the issue.
+    * Given the number of threads have become a bottleneck. why this is happening and a possible solution.
+    * Given a service is currently handling 1 request/sec What are the steps to handle 1000 req/sec.  
+2. Object Oriented Design:
+       * Inheritance vs Composition.
+       * Dependency injection.
+       * Spring related question.
+       
+Coding:
+    1. Given a List strings, each string int the format <User_id,resource_id,ts>
+       Find each user’s start and end ts for accessing any resource. Solved in n^2 * logn
+    2. Follow-up. find which resource was accessed the maximum number of times in a 5 minute window. Return the count and the times at which it was accessed.(list of ts in that window).
+******************************
+
+Coding
+    1. Given a count-to-domain map, return the aggregate count along with sub-domain
+    
+     Ex: Input : google.com -> 900, a.b.c.com -> 20 , b.c.com -> 30, c.com -> 10
+      Output:  google.com-> 900, a.b.c.com->20,b.c.com->30,c.com->10,com->960  
+    
+    2. <https://leetcode.com/discuss/interview-experience/1713353/karat-interview-experience-indeed>
+
 
